@@ -1,0 +1,3 @@
+common:
+  from_common: "app-common"
+  to_override: "app-common"

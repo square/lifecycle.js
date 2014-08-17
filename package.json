@@ -1,0 +1,40 @@
+{
+  "name": "lifecycle",
+  "version": "1.0.0-pre1",
+  "description": "Container for productionized applications",
+  "main": "./lib/lifecycle/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "mocha",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "bin": {
+    "lifecycle": "./bin/lifecycle"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "production",
+    "application",
+    "container"
+  ],
+  "dependencies": {
+    "commander-plus": "",
+    "deepmerge": "",
+    "glob": "",
+    "bluebird": "",
+    "sprintf": "^0.1.3",
+    "toposort": ""
+  },
+  "devDependencies": [
+    "mocha",
+    "expect.js",
+    "jsdoc"
+  ],
+  "author": "Daniel Neighman",
+  "license": "Apache-2.0"
+}

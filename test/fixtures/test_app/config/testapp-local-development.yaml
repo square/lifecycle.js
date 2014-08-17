@@ -1,0 +1,8 @@
+common:
+  to_override: "app-local-development"
+
+generated:
+  to_override: "app-local-development"
+
+specific: 'app-local-development'
+

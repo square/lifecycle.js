@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var Path = require('path');
+
+var app = require(Path.resolve(Path.join(process.cwd(), 'lifecycle')));
+app.bootstrap().then(function(){
+  app.commands.parse(process.argv);
+
+  if (!app.commands.args.length) app.commands.help();
+}).catch(function(err){
+  console.error("Error:", err);
+  console.error(err.stack);
+  process.exit(1);
+});
+

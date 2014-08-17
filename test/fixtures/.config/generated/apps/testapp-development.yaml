@@ -1,0 +1,6 @@
+common:
+  to_override: "generated-development"
+
+generated:
+  from_generated: "generated-development"
+  to_override: "generated-development"

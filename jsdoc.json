@@ -1,0 +1,14 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "exclude": ["node_modules"],
+    "include": ["README.md", "lib", "lib/lifecylce"]
+  },
+  "opts": {
+    "recursive": true,
+    "destination": "./docs",
+    "tutorials": "./tutorials"
+  }
+}
