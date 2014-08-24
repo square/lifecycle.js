@@ -1,5 +1,5 @@
 {
-  "name": "lifecycle",
+  "name": "lifecycles",
   "version": "1.0.0",
   "description": "Container for productionized applications",
   "main": "./lib/lifecycle/index.js",
