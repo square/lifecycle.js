@@ -63,7 +63,7 @@ For example, to setup a connection to a database, and then tear it down on shutd
 
 ### Lifecycle files
 
-Each file under 'lifecycle' will be loaded before the bootstrap stage is executed. You can use this to create your own lifecycle setup code.
+Each file under the 'lifecycle' directory will be loaded before the bootstrap stage is executed. You can use this to create your own lifecycle setup code.
 You can also load a lifecycle setup function from a library that is Lifecycle aware.
 
 For example.
